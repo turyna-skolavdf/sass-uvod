@@ -6,3 +6,5 @@ Jednoduchá kalkulačka s nabídkou základních výpočetních funkcí naprogra
 - mixiny
 - stromová struktura tříd
 - proměnné (určení barev)
+
+![Náhledová fotka kalkulačky](https://i.imgur.com/ZFV6kVF.png)

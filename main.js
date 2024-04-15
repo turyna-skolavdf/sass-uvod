@@ -4,9 +4,7 @@ const buttons = [...document.querySelectorAll('.btn')];
 
 buttons.map( button => {
     button.addEventListener('click', (e) => {
-        if(e.target.classList.contains('operator')) {
-            display.value += e.target.value;
-        } else if(e.target.classList.contains('equals')) {
+        if(e.target.classList.contains('equals')) {
             try {
                 display.value = eval(display.value);
             } catch {
